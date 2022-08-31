@@ -7,7 +7,7 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     list-style: none;
-  }
+}
 
 .nav {
     background-color: aliceblue;
@@ -19,7 +19,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     padding: 5% 10%;
-    
+
 }
 
 .list-section {
@@ -31,7 +31,7 @@
 .list-header {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .list-container {
@@ -40,7 +40,7 @@
 
 li {
     padding: 5px;
-    border-bottom: 1px solid lightgray;  
+    border-bottom: 1px solid lightgray;
 }
 
 .input-section {
@@ -58,6 +58,10 @@ form {
 button {
     width: 100px;
     padding: 5px 10px;
+}
+
+form button {
+    align-self: flex-end;
 }
 
 input {
