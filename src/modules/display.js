@@ -9,8 +9,8 @@ export default class Display {
         li[i] = document.createElement('li');
         li[i].textContent = `${element.user}: ${element.score}`;
         document.querySelector('.list-container').append(li[i]);
-        i += 1; 
-      })
+        i += 1;
+      });
     }
-  };    
+  };
 }
