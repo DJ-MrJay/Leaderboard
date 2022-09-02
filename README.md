@@ -1,5 +1,5 @@
 # Leaderboard Website
-This leaderboard website displays scores submitted by different players and also allows you to submit your score. It connects with external Leaderboard API service where all data is preserved.
+This leaderboard website displays scores submitted by different players and also allows you to submit your score. It connects with an external Leaderboard API service where all data is preserved.
 
 ## Built With
 - HTML
