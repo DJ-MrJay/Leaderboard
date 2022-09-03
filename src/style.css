@@ -10,7 +10,7 @@
 }
 
 .nav {
-  color: white;
+  color: lightblue;
   background-color: rgb(46, 46, 46);
   padding: 0.5rem 5%;
 }
@@ -19,8 +19,8 @@
   display: grid;
   gap: 2rem;
   padding: 5% 10%;
-  background-color: aliceblue;
-  height: 100vh;
+  background-color: #f7f7f7;
+  height: 85vh;
 }
 
 .list-section {
@@ -35,12 +35,15 @@
 }
 
 .list-container {
-  border: 2px solid black;
+  border: 1px solid lightgray;
 }
 
 li {
   padding: 5px;
-  border-bottom: 1px solid lightgray;
+}
+
+li:nth-child(even) {
+  background-color: lightgray;
 }
 
 .input-section {
@@ -66,6 +69,27 @@ form button {
 
 input {
   padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  font-size: inherit;
+  transition: 0.5s;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid rgb(90, 90, 90);
+}
+
+footer {
+  background-color: rgb(46, 46, 46);
+  padding: 1.5rem 5%;
+  color: lightblue;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+footer a {
+  color: white;
 }
 
 @media (min-width: 767px) {
